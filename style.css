@@ -1,0 +1,105 @@
+body {
+    background-color: #f8f8f8;
+    margin: 0;
+}
+
+.menu li, li > a {
+    list-style-type: none;
+    font: 14pt Arial;
+    line-height: 23px;
+    text-decoration: none;
+    color: #1c0e02;
+}
+
+.menu {
+    background-image: linear-gradient(#b6aaa4, #f8f8f8);
+    margin: 0;
+    padding-top: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial;
+    color: #132a07;
+}
+
+p, a, form {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h3 {
+    font: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+    margin-left: 15px;
+}
+
+.short_description {
+    color: #707070;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 16px;
+    
+}
+
+.long_description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.specifications > li {
+    list-style: none;
+    background: url(img/list.jpg) no-repeat;
+    padding-left: 30px;
+    font-size: 17px;
+    font-style: oblique;
+    color: #1c1712;
+    line-height: 20px;
+}
+
+.form_contacts, tr > td {
+    width: 750px;
+    vertical-align: top;
+    color: #484343;
+    font-size: 16px;
+    text-align: left;
+}
+
+input[type=text] {
+    width: 650px;
+}
+
+#comment {
+    width: 651px;
+}
+
+.catalog {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.catalog > tr, td, a {
+    text-align: center;
+    width: 33%;
+    text-decoration: none;
+    font-family: Arial;
+    color: #1c0e02;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.img_description > img {
+    outline-style: solid;
+    outline-color: #80552c;
+}
+
+.footer {
+    position: relative;
+    height: 100%;
+    min-height: 100vh;
+}
