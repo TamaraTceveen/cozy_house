@@ -9,43 +9,56 @@
 </head>
 
 <body>
-    <ul class="menu">
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="catalog.html">Каталог</a></li>
-        <li><a href="contacts.html">Контакты</a></li>
-    </ul>
-    <hr>
-    <h1>Напишите нам</h1>
-    <form action="#">
-        <table class="form_contacts">
-            <tr>
-                <td>Ваше имя: </td>
-                <td><input type="text" placeholder="Иванов Алексей"></td>
-            </tr>
-            <tr>
-                <td>Ваш e-mail: </td>
-                <td><input type="text" placeholder="ivanov@yandex.ru"></td>
-            </tr>
-            <tr>
-                <td>Сообщение: </td>
-                <td><textarea name="comment" id="comment" rows="10"></textarea></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td style="text-align: right;"><input type="submit" value="Отправить"> <input type="reset" value="Очистить"></td>
-            </tr>
-        </table>
-    </form>
-    <br>
-    <h3>Наш адрес:</h3>
-    <p class="long_description">г. Амстердам, ул. Geldersekade</p>
-    <br>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.753412196707!2d4.899499815686152!3d52.37489112978691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609b99b9c62b7%3A0x72365fd2493ea103!2sGeldersekade!5e0!3m2!1sen!2snl!4v1597357462967!5m2!1sen!2snl" width="750" height="450" frameborder="0" style="border:0; margin-left: 40px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    <br>
+    <div class="header">
+        <div class="in_header" id="logo">
+            <img src="img/logo.png" alt="">
+        </div>
+        <div class="in_header">
+            <ul class="menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="body" style="height: 1000px; background-color: white;">
+        <br>
+        <h1>Напишите нам</h1>
+        <form action="#">
+            <table class="form_contacts">
+                <tr>
+                    <td>Ваше имя: </td>
+                    <td><input type="text" placeholder="Иванов Алексей"></td>
+                </tr>
+                <tr>
+                    <td>Ваш e-mail: </td>
+                    <td><input type="email" placeholder="ivanov@yandex.ru"></td>
+                </tr>
+                <tr>
+                    <td>Сообщение: </td>
+                    <td><textarea name="comment" id="comment" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td style="text-align: right;"><input type="submit" value="Отправить"> <input type="reset"
+                            value="Очистить"></td>
+                </tr>
+            </table>
+        </form>
+        <br>
+        <h3>Наш адрес:</h3>
+        <p class="index_description">г. Амстердам, ул. Geldersekade</p>
+        <br>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.753412196707!2d4.899499815686152!3d52.37489112978691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609b99b9c62b7%3A0x72365fd2493ea103!2sGeldersekade!5e0!3m2!1sen!2snl!4v1597357462967!5m2!1sen!2snl"
+            width="750" height="450" frameborder="0" style="border:0; margin-left: 40px;" allowfullscreen=""
+            aria-hidden="false" tabindex="0"></iframe>
+
+    </div>
+    <div class="footer">
+        <br>
+        <p>Все права защищены &copy; 2020 </p>
+    </div>
 </body>
-<footer class="footer">
-    <hr>
-    <p>Все права защищены &copy; 2020 </p>
-</footer>
 
 </html>
